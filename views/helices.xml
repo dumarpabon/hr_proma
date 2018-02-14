@@ -2,9 +2,9 @@
   <data>
     <!-- explicit list view definition -->
 
-      <record model="ir.ui.view" id="dw_proma.list_helices">
-      <field name="name">Listado helices</field>
-      <field name="model">dw_proma.helice</field>
+      <record model="ir.ui.view" id="hr.list_helices">
+      <field name="name">Listado Helices</field>
+      <field name="model">hr.helice</field>
       <field name="arch" type="xml">
         <tree>
 
@@ -19,9 +19,9 @@
 
     <!-- actions opening views on models -->
 
-    <record model="ir.actions.act_window" id="dw_proma.action_window_helice">
-      <field name="name">Ventana de helices</field>
-      <field name="res_model">dw_proma.helice</field>
+    <record model="ir.actions.act_window" id="hr.action_window_helice">
+      <field name="name">Ventana de Helices</field>
+      <field name="res_model">hr.helice</field>
       <field name="view_mode">tree,form</field>
     </record>
 
@@ -48,13 +48,12 @@
 
     <!-- menu categories -->
 
-    <menuitem name="Helices" id="dw_proma.helices" parent="menu_hr_root"/>
+    <menuitem name="Helices" id="hr.helices" parent="menu_hr_root"/>
 
 
     <!-- actions -->
 
-    <menuitem name="Helices" id="dw_proma.helices_list" parent="dw_proma.helices"
-              action="dw_proma.action_window_helice"/>
+    <menuitem name="Helices" id="hr.helices_list" parent="hr.helices" action="hr.action_window_helice"/>
 
 
   </data>

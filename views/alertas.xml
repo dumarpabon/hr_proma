@@ -2,9 +2,9 @@
   <data>
     <!-- explicit list view definition -->
 
-      <record model="ir.ui.view" id="dw_proma.list_alertas">
+      <record model="ir.ui.view" id="hr.list_alertas">
       <field name="name">Listado Alertas</field>
-      <field name="model">dw_proma.alerta</field>
+      <field name="model">hr.alerta</field>
       <field name="arch" type="xml">
         <tree>
 
@@ -19,9 +19,9 @@
 
     <!-- actions opening views on models -->
 
-    <record model="ir.actions.act_window" id="dw_proma.action_window_alerta">
+    <record model="ir.actions.act_window" id="hr.action_window_alertas">
       <field name="name">Ventana de Alertas</field>
-      <field name="res_model">dw_proma.alerta</field>
+      <field name="res_model">hr.alerta</field>
       <field name="view_mode">tree,form</field>
     </record>
 
@@ -48,13 +48,12 @@
 
     <!-- menu categories -->
 
-    <menuitem name="Alertas" id="dw_proma.alertas" parent="menu_hr_root"/>
+    <menuitem name="Alertas" id="hr.alertas" parent="menu_hr_root"/>
 
 
     <!-- actions -->
 
-    <menuitem name="Alertas" id="dw_proma.alertas_list" parent="dw_proma.alertas"
-              action="dw_proma.action_window_alerta"/>
+    <menuitem name="Alertas" id="hr.alertas_list" parent="hr.alertas" action="hr.action_window_alertas"/>
 
 
   </data>

@@ -2,9 +2,9 @@
   <data>
     <!-- explicit list view definition -->
 
-      <record model="ir.ui.view" id="dw_proma.list_aeronaves">
+      <record model="ir.ui.view" id="hr.list_aeronaves">
       <field name="name">Listado Aeronaves</field>
-      <field name="model">dw_proma.aeronave</field>
+      <field name="model">hr.aeronave</field>
       <field name="arch" type="xml">
         <tree>
 
@@ -19,9 +19,9 @@
 
     <!-- actions opening views on models -->
 
-    <record model="ir.actions.act_window" id="dw_proma.action_window_aeronave">
-      <field name="name">Ventana de aeronaves</field>
-      <field name="res_model">dw_proma.aeronave</field>
+    <record model="ir.actions.act_window" id="hr.action_window_aeronaves">
+      <field name="name">Ventana de Aeronaves</field>
+      <field name="res_model">hr.aeronave</field>
       <field name="view_mode">tree,form</field>
     </record>
 
@@ -48,13 +48,12 @@
 
     <!-- menu categories -->
 
-    <menuitem name="Aeronaves" id="dw_proma.aeronaves" parent="menu_hr_root"/>
+    <menuitem name="Aeronaves" id="hr.aeronaves" parent="menu_hr_root"/>
 
 
     <!-- actions -->
 
-    <menuitem name="Aeronaves" id="dw_proma.aeronaves_list" parent="dw_proma.aeronaves"
-              action="dw_proma.action_window_aeronave"/>
+    <menuitem name="Aeronaves" id="hr.aeronaves_list" parent="hr.aeronaves" action="hr.action_window_aeronaves"/>
 
 
   </data>
