@@ -48,7 +48,7 @@
 
     <!-- menu categories -->
 
-    <menuitem name="Motores" id="hr.motores" parent="menu_hr_root" groups="group_hr_manager"/>
+    <menuitem name="Motores" id="hr.motores" parent="menu_hr_root" groups="group_hr_manager" secuence="101"/>
 
 
     <!-- actions -->
