@@ -2,7 +2,7 @@
   <data>
     <!-- explicit list view definition -->
 
-      <record model="ir.ui.view" id="dw_proma.list_motores">
+      <record model="ir.ui.view" id="hr.list_motores">
       <field name="name">Listado Motores</field>
       <field name="model">dw_proma.motor</field>
       <field name="arch" type="xml">
@@ -19,7 +19,7 @@
 
     <!-- actions opening views on models -->
 
-    <record model="ir.actions.act_window" id="dw_proma.action_window_motor">
+    <record model="ir.actions.act_window" id="hr.action_window_motor">
       <field name="name">Ventana de Motores</field>
       <field name="res_model">dw_proma.motor</field>
       <field name="view_mode">tree,form</field>
@@ -48,13 +48,13 @@
 
     <!-- menu categories -->
 
-    <menuitem name="Motores" id="dw_proma.motores" parent="menu_hr_root"/>
+    <menuitem name="Motores" id="hr.motores" parent="menu_hr_root"/>
 
 
     <!-- actions -->
 
-    <menuitem name="Motores" id="dw_proma.motores_list" parent="dw_proma.motores"
-              action="dw_proma.action_window_motor"/>
+    <menuitem name="Motores" id="dw_proma.motores_list" parent="hr.motores"
+              action="hr.action_window_motor"/>
 
 
   </data>
