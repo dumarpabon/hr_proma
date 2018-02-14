@@ -53,8 +53,7 @@
 
     <!-- actions -->
 
-    <menuitem name="Motores" id="dw_proma.motores_list" parent="hr.motores"
-              action="hr.action_window_motor"/>
+    <menuitem name="Motores" id="hr.motores_list" parent="hr.motores" action="hr.action_window_motor"/>
 
 
   </data>
