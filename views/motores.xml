@@ -4,7 +4,7 @@
 
       <record model="ir.ui.view" id="hr.list_motores">
       <field name="name">Listado Motores</field>
-      <field name="model">dw_proma.motor</field>
+      <field name="model">hr.motor</field>
       <field name="arch" type="xml">
         <tree>
 
@@ -21,7 +21,7 @@
 
     <record model="ir.actions.act_window" id="hr.action_window_motor">
       <field name="name">Ventana de Motores</field>
-      <field name="res_model">dw_proma.motor</field>
+      <field name="res_model">hr.motor</field>
       <field name="view_mode">tree,form</field>
     </record>
 
