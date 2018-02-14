@@ -316,7 +316,7 @@ class helice(models.Model):
     _name = 'dw_proma.helice'
 
 class motor(models.Model):
-    _name = 'dw_proma.motor'
+    _name = 'hr.motor'
 
 class alerta(models.Model):
     _name = 'dw_proma.alerta'
