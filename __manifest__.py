@@ -5,7 +5,6 @@
     'name': 'Directorio Empleados y Partes PROMA',
     'version': '1.0',
     'category': 'Human Resources',
-    'author': 'Gabriel Pabon'
     'sequence': 79,
     'summary': 'Jobs, Departments, Employees Details',
     'description': """
