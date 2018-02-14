@@ -310,13 +310,13 @@ class Department(models.Model):
 
 
 class aeronave(models.Model):
-    _name = 'dw_proma.aeronave'
+    _name = 'hr.aeronave'
 
 class helice(models.Model):
-    _name = 'dw_proma.helice'
+    _name = 'hr.helice'
 
 class motor(models.Model):
     _name = 'hr.motor'
 
 class alerta(models.Model):
-    _name = 'dw_proma.alerta'
+    _name = 'hr.alerta'

@@ -38,7 +38,10 @@ You can manage:
         'security/ir.model.access.csv',
         'views/hr_views.xml',
         'views/hr_templates.xml',
+        'views/aeronaves.xml',
         'views/motores.xml',
+        'views/helices.xml',
+        'views/alertas.xml',
         'data/hr_data.xml',
     ],
     'demo': [
