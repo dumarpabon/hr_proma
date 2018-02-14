@@ -48,7 +48,7 @@
 
     <!-- menu categories -->
 
-    <menuitem name="Helices" id="hr.helices" parent="menu_hr_root"/>
+    <menuitem name="Helices" id="hr.helices" parent="menu_hr_root" groups="group_hr_manager"/>
 
 
     <!-- actions -->

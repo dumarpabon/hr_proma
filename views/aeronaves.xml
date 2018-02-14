@@ -48,7 +48,7 @@
 
     <!-- menu categories -->
 
-    <menuitem name="Aeronaves" id="hr.aeronaves" parent="menu_hr_root"/>
+    <menuitem name="Aeronaves" id="hr.aeronaves" parent="menu_hr_root" groups="group_hr_manager"/>
 
 
     <!-- actions -->

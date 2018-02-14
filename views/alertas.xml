@@ -48,7 +48,7 @@
 
     <!-- menu categories -->
 
-    <menuitem name="Alertas" id="hr.alertas" parent="menu_hr_root"/>
+    <menuitem name="Alertas" id="hr.alertas" parent="menu_hr_root" groups="group_hr_manager"/>
 
 
     <!-- actions -->
